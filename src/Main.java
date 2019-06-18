@@ -28,7 +28,6 @@ public class Main {
     }
 
     public static void lowBig(ArrayList<Double> listing) {
-
         Double big = listing.get(0);
         for (int i = 0; i < listing.size(); i++) {
             if (listing.get(i) > big) {
